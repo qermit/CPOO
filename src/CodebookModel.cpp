@@ -10,6 +10,9 @@
 #include "CodebookModel.h"
 
 CodebookModel::CodebookModel() {
+    /**
+     * test
+     */
 
     nframes_to_learn = 100;
 
