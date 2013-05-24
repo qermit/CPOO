@@ -1,0 +1,33 @@
+/**
+\mainpage The mainpage documentation
+
+\section compile_run Kompilacja i uruchomienie
+
+cd ../cpoo-out
+
+cmake ../CPOO
+
+make
+
+./src/bmodel plik.mov
+
+\subsection Debugowanie
+
+Aby zbudować projekt do debugowania należy podczas wykonywania programu cmake dodać flagę CMAKE_BUILD_TYPE=Debug
+
+cmake ../CPOO -DCMAKE_BUILD_TYPE=Debug
+
+
+
+\section libs Użyte biblioteki i oprogramowanie zwenętrzne
+
+ - OpenCV
+ - CMake
+ - QT
+
+
+
+
+*/
+
+

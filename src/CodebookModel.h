@@ -19,9 +19,19 @@
 using namespace std;
 #define CHANNELS 3
 
+
+/** @brief Dummy class used for illustration purposes. Doing something with it.
+
+    Detailed description follows here.
+    @author X. XYZ, DESY
+    @date March 2008
+\section Wnioski
+Tutaj napisać jakieś wnioski
+    */
 class CodebookModel: public BackgroundModel {
 /**
-* The enumeration of space dimension
+ The enumeration of space dimension
+
 */
     typedef struct codebook_element {
          /// Wskaźnik do następnego elementu
